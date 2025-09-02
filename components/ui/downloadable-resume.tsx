@@ -12,7 +12,7 @@ const ResumeContent = () => {
         <p className="text-lg text-gray-600 mb-3">Full Stack Developer</p>
         <div className="flex justify-center gap-6 text-xs">
           <span>yedidya.abergel@gmail.com</span>
-          <span>+972-50-123-4567</span>
+          <span>+972-54-830-7675</span>
           <span>github.com/Yedidya10</span>
           <span>linkedin.com/in/yedidya-aberjel</span>
         </div>
