@@ -1,4 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yedidya Aberjel - Professional Portfolio
+
+A modern, responsive portfolio website showcasing professional development skills, featured projects, and technical expertise.
+
+## Features
+
+- 🎨 Modern, clean design with monochromatic color scheme (black, gray, white)
+- 📱 Fully responsive layout optimized for mobile devices
+- 🌓 Dark/light mode support
+- ⚡ Built with Next.js 15 and TypeScript
+- 🎭 Shadcn/ui components for consistent UI design
+- 🖼️ Professional hero section with social media links
+- 💼 Featured projects section with detailed technology stacks
+- 🔗 Interactive project cards with GitHub integration
+- ✨ Smooth scroll navigation and hover animations
+
+## Portfolio Highlights
+
+### Featured Projects
+
+**Browser Extensions:**
+- **PinFlux** - Advanced bookmark management with cross-browser sync
+- **RTLify GPT** - RTL language support for ChatGPT interface
+
+**Social Platforms:**
+- **ShareFood** - Community food sharing platform with location matching
+- **ShareSphere** - Modern social networking focused on meaningful connections
+
+### Technology Stack Overview
+
+**Frontend:** React, Next.js, TypeScript, Tailwind CSS, HTML5, CSS3
+**Backend:** Node.js, Express, MongoDB, PostgreSQL, Prisma, JWT
+**Tools & APIs:** Chrome APIs, Socket.io, Google Maps API, NextAuth.js, Vercel
+
+## Tech Stackvich - Professional Portfolio
+
+A modern, responsive portfolio website built with Next.js, showcasing professional development skills and projects.
+
+## Features
+
+- 🎨 Modern, clean design with monochromatic color scheme (black, gray, white)
+- 📱 Fully responsive layout optimized for mobile devices
+- 🌓 Dark/light mode support
+- ⚡ Built with Next.js 15 and TypeScript
+- 🎭 Shadcn/ui components for consistent UI
+- 🖼️ Professional hero section with floating badges
+- 💼 Professional presentation focused on Full Stack development
+
+## Tech Stack
+
+- **Framework:** Next.js 15 with App Router
+- **Styling:** Tailwind CSS
+- **UI Components:** Shadcn/ui
+- **Icons:** Lucide React
+- **Typography:** Geist font family
+- **Language:** TypeScript
 
 ## Getting Started
 
