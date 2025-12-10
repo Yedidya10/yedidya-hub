@@ -6,6 +6,15 @@ import { ArrowRight } from "lucide-react"
 
 const ventures = [
   {
+    title: "InSight",
+    description: "A living partner matching platform built on the principles of Calm Technology and Radical Honesty. We help users find compatible living partners through deep analysis (In) and clarity (Sight), allowing technology to quietly recede into the background while authentic connections emerge.",
+    githubUrl: "https://github.com/Yedidya10/insight",
+    liveUrl: "https://insight.example.com/",
+    technologies: ["Next.js", "TypeScript", "AI/ML", "PostgreSQL", "Prisma", "Tailwind CSS"],
+    category: "Startup" as const,
+    featured: true
+  },
+  {
     title: "PinFlux",
     description: "Chrome extension that enables pinning important messages in ChatGPT conversations. Features quick access to saved content and intuitive organization tools for enhanced productivity.",
     githubUrl: "https://github.com/AuxionCore/PinFlux",
@@ -13,28 +22,6 @@ const ventures = [
     technologies: ["TypeScript", "Chrome APIs", "HTML5", "CSS3", "ChatGPT Integration"],
     category: "Browser Extension" as const,
     featured: true
-  },
-  {
-    title: "RTLify GPT",
-    description: "Browser extension that automatically detects and formats Right-to-Left (RTL) languages in ChatGPT. Improves readability for Hebrew, Arabic, and other RTL languages with proper text direction.",
-    githubUrl: "https://github.com/AuxionCore/RTLify_GPT",
-    liveUrl: "https://rtlify-gpt.auxion.space/",
-    technologies: ["JavaScript", "CSS3", "Chrome Extension APIs", "DOM Manipulation", "RTL Support"],
-    category: "Browser Extension" as const
-  },
-  {
-    title: "ShareFood",
-    description: "Community platform connecting people to share surplus food and reduce waste. Features real-time location matching, user profiles, rating systems, and secure messaging for safe food sharing.",
-    githubUrl: "https://github.com/Yedidya10/share_food",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Google Maps API", "JWT Authentication"],
-    category: "Social Platform" as const
-  },
-  {
-    title: "ShareSphere",
-    description: "Community platform for sharing household items and resources. Connects neighbors to lend and borrow everyday objects, reducing waste and building stronger local communities.",
-    githubUrl: "https://github.com/Yedidya10/sharesphere",
-    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "NextAuth.js", "Tailwind CSS", "Vercel"],
-    category: "Social Platform" as const
   }
 ]
 
