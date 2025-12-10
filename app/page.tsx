@@ -1,11 +1,11 @@
-import HeroSection from "@/components/sections/hero-section";
-import ProjectsSection from "@/components/sections/projects-section";
+import FounderHero from "@/components/sections/founder-hero"
+import VenturesSection from "@/components/sections/ventures-section"
 
 export default function Home() {
   return (
-    <main>
-      <HeroSection />
-      <ProjectsSection />
+    <main className="min-h-screen bg-background">
+      <FounderHero />
+      <VenturesSection />
     </main>
-  );
+  )
 }
