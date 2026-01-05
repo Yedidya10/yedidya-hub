@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react"
 interface MinimalProjectCardProps {
   title: string
   description: string
-  githubUrl: string
+  githubUrl?: string
   liveUrl?: string
   technologies: string[]
   category: string
@@ -59,14 +59,16 @@ export default function MinimalProjectCard({
               <ArrowUpRight className="w-3 h-3 ml-1" />
             </a>
           )}
-          <a 
-            href={githubUrl} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-          >
-            View Code
-          </a>
+          {githubUrl && (
+            <a 
+              href={githubUrl} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
+              View Code
+            </a>
+          )}
         </div>
       </div>
     </div>

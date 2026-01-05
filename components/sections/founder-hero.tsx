@@ -17,7 +17,7 @@ const scrollToVentures = () => {
 
 export default function FounderHero() {
   return (
-    <section className="min-h-[80vh] flex items-center justify-center px-4 py-16 bg-background">
+    <section className="min-h-[80vh] flex items-center justify-center px-4 py-16 bg-slate-950">
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Content */}
         <div className="space-y-8 text-center md:text-left order-2 md:order-1">
@@ -59,12 +59,14 @@ export default function FounderHero() {
 
         {/* Minimal Image */}
         <div className="flex justify-center md:justify-end order-1 md:order-2">
-          <div className="relative w-64 h-64 md:w-80 md:h-80 grayscale hover:grayscale-0 transition-all duration-700 ease-in-out">
+          <div className="relative w-64 h-64 md:w-80 md:h-80 overflow-hidden rounded-2xl shadow-2xl">
+            {/* Gradient overlay for smooth blending */}
+            <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-slate-950/70 z-10 pointer-events-none" />
             <Image
               src="/profile-image.jpeg"
               alt="Yedidya Aberjel"
               fill
-              className="object-cover rounded-2xl shadow-2xl"
+              className="object-cover grayscale hover:grayscale-0 transition-all duration-700 ease-in-out"
               priority
             />
           </div>

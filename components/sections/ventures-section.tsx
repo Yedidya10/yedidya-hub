@@ -8,8 +8,7 @@ const ventures = [
   {
     title: "InSight",
     description: "A living partner matching platform built on the principles of Calm Technology and Radical Honesty. We help users find compatible living partners through deep analysis (In) and clarity (Sight), allowing technology to quietly recede into the background while authentic connections emerge.",
-    githubUrl: "https://github.com/Yedidya10/insight",
-    liveUrl: "https://insight.example.com/",
+    liveUrl: "https://goinsight.co/",
     technologies: ["Next.js", "TypeScript", "AI/ML", "PostgreSQL", "Prisma", "Tailwind CSS"],
     category: "Startup" as const,
     featured: true

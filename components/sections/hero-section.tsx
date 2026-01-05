@@ -19,7 +19,7 @@ const scrollToProjects = () => {
 
 export default function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-16 bg-gradient-to-br from-background via-background to-muted/20">
+    <section className="min-h-screen flex items-center justify-center px-4 py-16 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
         {/* Content */}
         <div className="space-y-6 text-center lg:text-left">
@@ -80,7 +80,9 @@ export default function HeroSection() {
         {/* Profile Image */}
         <div className="flex justify-center lg:justify-end">
           <div className="relative">
-            <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-foreground/10 to-foreground/5 border-2 border-border overflow-hidden shadow-2xl">
+            <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl relative">
+              {/* Gradient overlay for smooth blending */}
+              <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-slate-950/60 z-10 pointer-events-none" />
               {/* Profile Image */}
               <Image
                 src="/profile-image.jpeg"
