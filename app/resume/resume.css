@@ -1,0 +1,10 @@
+/* Override dark mode for resume page */
+body:has(#resume-root) {
+  background: #f3f4f6 !important;
+  color: #000 !important;
+}
+
+body:has(#resume-root) #resume-root {
+  background: #f3f4f6;
+  color: #000;
+}
